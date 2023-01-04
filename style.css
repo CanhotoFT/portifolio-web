@@ -1,102 +1,91 @@
-@import 'https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap';
-
-h1{
-    font-family: 'Roboto Mono', monospace;
-    color: white;
+* {
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
-h2{
-    color: white;
-    text-align: center;
-}
-body{
-    background-color: #302F3D;
-}
-
-*{
-    box-sizing: border-box;
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
 }
 
-/*:root {
-    --body-bg-color: #22212C;
-    --text-color: #837E9F;
-    --bg-cards: #302F3D;
-    --bg-techs: #CB92B1;
+body {
+  background-color: #302f3d;
 }
-*/
 
 /*Edição de estilo do lateral*/
-.lateral{
-    width: 400px;
-    height: 1750px;
-    margin: 0px;
-    float: left;
+.lateral {
+  width: 400px;
+  height: 1750px;
+  margin: 0px;
+  float: left;
 }
 
-.perfil{
-    background-color: #837E9F;
-    position: absolute;
-    width: 348px;
-    height: 292px;
-    left: 40px;
-    top: 40px;
-    border-radius: 5%;
+.perfil {
+  background-color: #837e9f;
+  position: absolute;
+  width: 348px;
+  height: 292px;
+  left: 40px;
+  top: 40px;
+  border-radius: 5%;
 }
 
-.info{
-    background-color: #837E9F;
-    position: absolute;
-    width: 348px;
-    height: 348px;
-    left: 40px;
-    top: 362px;
-    border-radius: 5%;
+.info {
+  background-color: #837e9f;
+  position: absolute;
+  width: 348px;
+  height: 348px;
+  left: 40px;
+  top: 362px;
+  border-radius: 5%;
 }
 
-.tecnologias{
-    background-color: #837E9F;
-    position: absolute;
-    width: 348px;
-    height: 208px;
-    left: 40px;
-    top: 740px;
-    border-radius: 5%;
+.tecnologias {
+  background-color: #837e9f;
+  position: absolute;
+  width: 348px;
+  height: 208px;
+  left: 40px;
+  top: 740px;
+  border-radius: 5%;
 }
 
-.experiencias{
-    background-color: #837E9F;
-    position: absolute;
-    width: 348px;
-    height: 349px;
-    left: 40px;
-    top: 978px;
-    border-radius: 5%;
+.experiencias {
+  background-color: #837e9f;
+  position: absolute;
+  width: 348px;
+  height: 349px;
+  left: 40px;
+  top: 978px;
+  border-radius: 5%;
 }
 
-.cursos{
-    background-color: #837E9F;
-    position: absolute;
-    width: 348px;
-    height: 352px;
-    left: 40px;
-    top: 1357px;
-    border-radius: 5%;
+.cursos {
+  background-color: #837e9f;
+  position: absolute;
+  width: 348px;
+  height: 352px;
+  left: 40px;
+  top: 1357px;
+  border-radius: 5%;
 }
 
 /*Edição de estilo do centro*/
 .centro {
-    width: 1400px;
-    height: 1750px;
-    margin: 0px;
-    float: right;
-    text-align: center;
+  width: 1400px;
+  height: 1750px;
+  margin: 0px;
+  float: right;
+  text-align: center;
 }
 
 .meus_projetos {
-    background-color: #837E9F;
-    position: absolute;
-    width: 952px;
-    height: 86px;
-    left: 448px;
-    top: 40px;
+  background-color: #837e9f;
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 448px;
+  top: 40px;
 }
