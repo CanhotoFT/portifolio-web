@@ -3,7 +3,7 @@
 </p></h1>
 
 <p align="center">
-  <img alt="Portifólio Web" src="./github/preview.jpg" width="100%">
+  <img alt="Portifólio Web" src=".github/preview.jpg" width="100%">
 </p>
 <h1>🚀 Tecnologias</h1>
   <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
