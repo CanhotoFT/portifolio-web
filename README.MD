@@ -3,7 +3,7 @@
 </p></h1>
 
 <p align="center">
-  <img alt="Portifólio" src="" width="100%">
+  <img alt="Portifólio Web" src="./github/preview.jpg" width="100%">
 </p>
 <h1>🚀 Tecnologias</h1>
   <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
@@ -20,4 +20,4 @@
 
 <h1>📝 Licença</h1>
   <p>Esse projeto está sob a licença MIT.</p>
-# portifolio-web
+
