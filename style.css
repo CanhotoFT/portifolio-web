@@ -9,135 +9,70 @@
   --bg-cards: #302f3d;
   --bg-techs: #cb92b1;
 }
-
+/*
 body {
-  background-color: #302f3d;
+  
+}
+
+div {
+ 
 }
 
 /*Edição de estilo do lateral*/
-.left {
-  width: 400px;
-  height: 1750px;
-  margin: 0px;
-  float: left;
+/*
+#container-a {
+  
 }
 
 .profile {
-  background-color: #837e9f;
-  position: absolute;
-  width: 348px;
-  height: 292px;
-  left: 40px;
-  top: 40px;
-  border-radius: 20px;
+  
 }
 
 .links {
-  background-color: #837e9f;
-  position: absolute;
-  width: 348px;
-  height: 348px;
-  left: 40px;
-  top: 362px;
-  border-radius: 20px;
+
 }
 
 .technologies {
-  background-color: #837e9f;
-  position: absolute;
-  width: 348px;
-  height: 208px;
-  left: 40px;
-  top: 740px;
-  border-radius: 20px;
+  
 }
 
 .experiences {
-  background-color: #837e9f;
-  position: absolute;
-  width: 348px;
-  height: 349px;
-  left: 40px;
-  top: 978px;
-  border-radius: 20px;
+  
 }
 
 .education {
-  background-color: #837e9f;
-  position: absolute;
-  width: 348px;
-  height: 352px;
-  left: 40px;
-  top: 1357px;
-  border-radius: 20px;
+ 
 }
-
+*/
 /*Edição de estilo do centro*/
-.right {
-  width: 1400px;
-  height: 1750px;
-  margin: 0px;
-  float: right;
-  text-align: center;
+/*
+#container-b {
+
 }
 
 .my-projects {
-  background-color: #837e9f;
-  position: absolute;
-  width: 952px;
-  height: 86px;
-  left: 448px;
-  top: 40px;
-  border-radius: 20px;
+  
 }
 
 /*Posts Projects*/
+/*
 .post1 {
-    background-color: #837e9f;
-    position: absolute;
-    width: 461px;
-    height: 186px;
-    left: 448px;
-    top: 157px;
-    border-radius: 20px;
+    
 }
 
 .post2 {
-    background-color: #837e9f;
-    position: absolute;
-    width: 461px;
-    height: 186px;
-    left: 939px;
-    top: 157px;
-    border-radius: 20px;
+ 
 }
 
 .recents-posts {
-    background-color: #837e9f;
-    position: absolute;
-    width: 952px;
-    height: 86px;
-    left: 448px;
-    top: 373px;
-    border-radius: 20px;
+
 }
 
 .posts {
-    background-color: #837e9f;
-    position: absolute;
-    width: 952px;
-    height: 201px;
-    left: 448px;
-    top: 489px;
-    border-radius: 20px;
+    
 }
 
 .rec-posts {
-    background-color: #837e9f;
-    position: absolute;
-    width: 952px;
-    height: 201px;
-    left: 448px;
-    top: 489px;
-    border-radius: 20px;
+    
 }
+*/
