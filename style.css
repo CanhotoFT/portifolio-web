@@ -73,7 +73,7 @@ aside * {
   animation: entering 0.7s ease-in-out;
 }
 
-aside img:nth-child(1) {
+.profile img {
   width: 128px;
   height: 128px;
   border-radius: 50%;
@@ -84,11 +84,12 @@ aside img:nth-child(1) {
   border: 2px solid #00FF00;
 }
 
-aside h2 {
+.profile h2 {
   font-size: 23px;
+  text-align: center;
 }
 
-aside p {
+.profile p {
   font-size: 13px;
   text-align: center;
 }
