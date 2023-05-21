@@ -47,39 +47,33 @@ body {
 
   display: grid;
   grid-template-areas: "profile timeline";
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr 3fr;
   grid-template-rows: 100vh;
 }
 
 /*style a esquerda*/
 aside {
   grid-area: profile;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-
-  border-right: 1px solid;
-  border-image: linear-gradient(#727272, #2c2c31) 1;
-
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: auto 100%;
+  padding: 32px;
 }
 
 aside * {
   animation: entering 0.7s ease-in-out;
 }
 
+.profile{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
 .profile img {
   width: 128px;
   height: 128px;
   border-radius: 50%;
 
-  left: 150px;
-  top: 72px;
+  position: relative;
+  display: flex;
+  top: 32px;  
 
   border: 2px solid #00FF00;
 }
@@ -106,70 +100,140 @@ aside * {
   align-items: center;
   top: 10px;
 }
-/*Edição de estilo do lateral*/
-/*
-#container-a {
-  
-}
-
+/*Edição de estilo a direita*/
 .profile {
-  
+  position: absolute;
+  width: 348px;
+  height: 292px;
+  left: 40px;
+  top: 40px;
+
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px; 
 }
 
 .links {
+  position: absolute;
+  width: 348px;
+  height: 348px;
+  left: 40px;
+  top: 362px;
 
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 .technologies {
-  
+  position: absolute;
+  width: 348px;
+  height: 208px;
+  left: 40px;
+  top: 740px;
+
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 .experiences {
-  
+  position: absolute;
+  width: 348px;
+  height: 349px;
+  left: 40px;
+  top: 978px;
+
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 .education {
- 
+  position: absolute;
+  width: 348px;
+  height: 352px;
+  left: 40px;
+  top: 1357px;
+
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
-*/
+
 /*Edição de estilo do centro*/
-/*
-#container-b {
-
-}
-
 .my-projects {
-  
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 448px;
+  top: 40px;
+
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 /*Posts Projects*/
-/*
 .post1 {
-    
+  position: absolute;
+  width: 461px;
+  height: 186px;
+  left: 448px;
+  top: 157px;
+
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 .post2 {
- 
+  position: absolute;
+  width: 461px;
+  height: 186px;
+  left: 939px;
+  top: 157px;
+
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 .recents-posts {
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 448px;
+  top: 373px;
 
-}
-
-.posts {
-    
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 .rec-posts {
-    
+  position: absolute;
+  width: 952px;
+  height: 201px;
+  left: 448px;
+  top: 489px;
+
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
-*/
 
+.posts {
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 448px;
+  top: 373px;
 
-
-
-
-
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
 
 /*style a direita*/
 nav {
@@ -179,53 +243,6 @@ nav {
   overflow-y: scroll;
   animation: entering 0.7s ease-in-out;
 }
-
-.memory {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-
-  text-decoration: none;
-  margin-bottom: 64px;
-}
-
-.memory small {
-  color: #BEBEBF;
-  font-size: 0.75rem;
-}
-
-.memory h1 {
-  font-size: 2rem;
-  color: #EaEaEa;
-}
-
-.memory img {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 8px;
-  
-  transition: transform 0.3s ease-in-out;
-}
-
-.memory div {
-  width: 100%;
-  height: 280px;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.memory:hover img {
-  transform: scale(1.1);
-}
-
-.memory p {
-  font-size: 1.2rem;
-  color: #BEBEBF;
-  line-height: 28px;
-}
-
-
 
 /*responsivo*/
 @media (max-width: 768px){
