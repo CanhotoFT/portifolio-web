@@ -51,7 +51,7 @@ body {
   grid-template-rows: 100vh;
 }
 
-/*style a esquerda*/
+/*Edição de estilo a direita*/
 aside {
   grid-area: profile;
   padding: 32px;
@@ -62,55 +62,38 @@ aside * {
 }
 
 .profile{
-  align-items: center;
-  flex-direction: column;
-  display: flex;
+  position: absolute;
+width: 348px;
+height: 292px;
+left: 40px;
+top: 40px;
+
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
 }
 .profile img {
+  box-sizing: border-box;
+
+  position: absolute;
   width: 128px;
   height: 128px;
-  border-radius: 50%;
-
-  position: relative;
-  display: flex;
-  top: 32px;  
+  left: 110px;
+  top: 72px;
 
   border: 2px solid #00FF00;
+  border-radius: 50%;
 }
 
 .profile h2 {
   font-size: 23px;
   text-align: center;
+  padding: 30px;
 }
 
 .profile p {
   font-size: 13px;
   text-align: center;
-}
-
-.profile {
-  width: 348px;
-  height: 292px;
-  background-color: #302F3D;
-
-  border-radius: 20px;
-}
-
-.profile img {
-  align-items: center;
-  top: 10px;
-}
-/*Edição de estilo a direita*/
-.profile {
-  position: absolute;
-  width: 348px;
-  height: 292px;
-  left: 40px;
-  top: 40px;
-
-  background: #302F3D;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 20px; 
 }
 
 .links {
@@ -161,7 +144,23 @@ aside * {
   border-radius: 20px;
 }
 
-/*Edição de estilo do centro*/
+/*style a direita*/
+nav {
+  padding: 64px;
+  grid-area: timeline;
+
+  overflow-y: scroll;
+  animation: entering 0.7s ease-in-out;
+}
+
+nav h2 {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
 .my-projects {
   position: absolute;
   width: 952px;
@@ -172,6 +171,14 @@ aside * {
   background: #302F3D;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
+}
+
+.my-projects h2 {
+  position: relative;
+  width: 130px;
+  height: 26px;
+  left: 30px;
+  top: 30px;
 }
 
 /*Posts Projects*/
@@ -211,6 +218,14 @@ aside * {
   border-radius: 20px;
 }
 
+.recents-posts h2 {
+  position: relative;
+  width: 130px;
+  height: 26px;
+  left: 30px;
+  top: 30px;
+}
+
 .posts {
   position: absolute;
   width: 952px;
@@ -245,16 +260,6 @@ aside * {
   background: #302F3D;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-}
-
-
-/*style a direita*/
-nav {
-  padding: 64px;
-  grid-area: timeline;
-
-  overflow-y: scroll;
-  animation: entering 0.7s ease-in-out;
 }
 
 /*responsivo*/
